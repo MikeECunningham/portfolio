@@ -60,7 +60,7 @@ const Overview = () => {
       <Stack spacing={10} style={{padding:50}}>
         <div>
           <h1 style={{textAlign: "center", width: "100%", fontSize: "xxx-large"}}>Hi, I'm Michael Cunningham</h1>
-          <div style={{textAlign: "center", width: "100%"}}>
+          <div style={{textAlign: "center", width: "100%", fontSize: "large"}}>
             I make responsive apps and reliable backends.
           </div>
           <br></br>

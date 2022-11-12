@@ -39,6 +39,14 @@ const skills: Skill[] = [
       "Can maintain older SPAs made with Angular.js, React, or other pure JS libraries.",
     ]
   },
+  {
+    title: "Linux",
+    description: [
+      "Know best practices for file permissions to ensure system is secure.",
+      "Can use different package managers to install software for specific distributions.",
+      "Able to create shell scripts for managing system resources."
+    ]
+  },
   // {
   //   title: "",
   //   description: [

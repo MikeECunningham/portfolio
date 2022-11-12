@@ -41,15 +41,15 @@ interface IconLink {
 const iconLinks: IconLink[] = [
   {
     link: "mailto:mikeecunningham@hotmail.com",
-    icon: <EmailIcon style={{fontSize:"50", margin: "20"}}/>
+    icon: <EmailIcon style={{fontSize:"50", margin: "20", color:'#ab6901'}}/>
   },
   {
     link: "https://github.com/MikeECunningham",
-    icon: <GitHubIcon style={{fontSize:"50", margin: "20"}}/>
+    icon: <GitHubIcon style={{fontSize:"50", margin: "20", color:'#ab6901'}}/>
   },
   {
     link: "https://www.linkedin.com/in/michael-cunningham-39b563168/",
-    icon: <LinkedInIcon style={{fontSize:"50", margin: "20"}}/>
+    icon: <LinkedInIcon style={{fontSize:"50", margin: "20", color:'#ab6901'}}/>
   }
 ]
 

@@ -5,9 +5,9 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.9",
     "@mui/material": "^5.10.13",
     "@mui/styled-engine-sc": "^5.10.6",
-    "@mui/icons-material": "^5.10.9",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
@@ -26,6 +26,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "dist": "node ./dist && cd dist & git add * & git commit -m \" Added newest dist files\" && git push",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -46,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "fs-extra": "^10.1.0"
   }
 }

@@ -17,7 +17,7 @@ const Menu = (props: MenuProps) => {
       <AppBar position="static" elevation={10} style={{background:'#ab6901'}}>
         <Toolbar>
           <Container style={{ display: 'flex', justifyContent: 'center',}}>
-            {props.buttons.map(([title, url]) => <Button key={title} onClick={() => navigate(url)} style={{ paddingRight:25, paddingLeft:25, fontSize:14, fontWeight:"bold"}}>{title}</Button>)}
+            {props.buttons.map(([title, url]) => <Button key={title} onClick={() => navigate(url)} style={{ paddingRight:25, paddingLeft:25, fontSize:"2.2vw", fontWeight:"bold"}}>{title}</Button>)}
           </Container>
         </Toolbar>
       </AppBar>

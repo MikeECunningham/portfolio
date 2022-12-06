@@ -28,7 +28,7 @@ function App() {
       <Routes>
         { routes.map( (route) => <Route key={route.url} path={route.url} element={route.component}/> ) }
       </Routes>
-      <footer>Michael Cunningham - November 2022</footer>
+      <footer style={{position:"fixed", bottom:0}}>Michael Cunningham - November 2022</footer>
     </div>
   );
 }

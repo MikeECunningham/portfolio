@@ -21,15 +21,15 @@ interface Highlight {
 const highlights: Highlight[] = [
   {
     title: 'Systems-Level Software',
-    description: 'Optimization is a way of life. I can code for fast computation, low latency, stability, and lock-free parallelism.'
+    description: 'I can code for fast computation, low latency, stability, and lock-free parallelism.'
   },
   {
     title: 'Full Stack Development',
-    description: 'I have experience building full stack applications across a variety of languages, libraries, and frameworks. If you can describe it to me, I can get it done.'
+    description: 'I have experience building full stack applications across a variety of languages, libraries, and frameworks.'
   },
   {
     title: 'Cross-Platform Development',
-    description: 'I am able to create applications that work seamlessly across mobile and desktop platforms with ease. Say goodbye to separate codebases for iOS and Android.'
+    description: 'I can create single applications for multiple platforms, both desktop and mobile.'
   }
 ]
 

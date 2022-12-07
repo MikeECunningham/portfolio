@@ -28,23 +28,21 @@ const skills: Skill[] = [
   {
     title: "Rust",
     description: [
-      "Can create reliable cross-platform applications that are highly efficient and memory safe.",
-      "Can create procedural macros to perform complex metaprogramming, simplifying the development process."
+      "Can create reliable cross-platform applications that are highly efficient and memory safe."
     ]
   },
   {
     title: "Javascript",
     description: [
       "Can create node.js programs with express.js for web API's.",
-      "Can maintain older SPAs made with Angular.js, React, or other pure JS libraries.",
+      "Can interface with Angular and React applications of all kinds.",
     ]
   },
   {
     title: "Linux",
     description: [
-      "Know best practices for file permissions to ensure system is secure.",
-      "Can use different package managers to install software for specific distributions.",
-      "Able to create shell scripts for managing system resources."
+      "Can work with package managers and the filesystem.",
+      "Familiar with shell and scripting."
     ]
   },
   // {

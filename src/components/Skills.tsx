@@ -19,30 +19,57 @@ interface Skill {
 
 const skills: Skill[] = [
   {
+    title: "Javascript",
+    description: [
+      "Experience with asynchronous systems using both promises and await",
+    ]
+  },
+  {
     title: "Typescript",
     description: [
-      "Can create responsive single page applications in Angular and React.",
-      "Can create node.js programs with express.js for web API's."
+      "Type safety with the flexibility of Javascript",
+    ]
+  },
+  {
+    title: "Angular",
+    description: [
+      "Can build responsive single page applications",
+      "Clean, comprehensible UI with Material"
+    ]
+  },
+  {
+    title: "React",
+    description: [
+      "Can build efficient single page applications",
+      "Clean, comprehensible UI with Material"
+    ]
+  },
+  {
+    title: "Node.JS",
+    description: [
+      "Can build efficient backends with Express.js",
+      "Proficient with npm and scripts.",
+      "Familiar with package ecosystem."
+    ]
+  },
+  {
+    title: "Databases",
+    description: [
+      "Familiarity with MongoDB, MySQL, and PostgreSQL.",
+      "Can use ORMs to safely and dynamically handle queries and migrations."
+    ]
+  },
+  {
+    title: "Docker",
+    description: [
+      "Can containerize backend ecyosystems for fast, reliable deployment",
     ]
   },
   {
     title: "Rust",
     description: [
-      "Can create reliable cross-platform applications that are highly efficient and memory safe."
-    ]
-  },
-  {
-    title: "Javascript",
-    description: [
-      "Can create node.js programs with express.js for web API's.",
-      "Can interface with Angular and React applications of all kinds.",
-    ]
-  },
-  {
-    title: "Linux",
-    description: [
-      "Can work with package managers and the filesystem.",
-      "Familiar with shell and scripting."
+      "Can create reliable cross-platform applications that are highly efficient and memory safe.",
+      "Can build contention-free parallelism with confidence."
     ]
   },
   // {
